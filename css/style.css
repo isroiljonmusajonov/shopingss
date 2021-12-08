@@ -41,7 +41,7 @@ nav .conteynir {
   align-items: center;
   padding: 10px 9%;
   height: 85px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 nav .conteynir .logo h1 {
   font-size: 45px;
@@ -50,6 +50,7 @@ nav .conteynir .logo h1 {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #59ab6e;
 }
+
 nav .conteynir .menu {
   margin-top: 15px;
 }
@@ -149,12 +150,16 @@ nav .conteynir .user i {
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  z-index: 1000;
 }
 .login-box.active {
   transition: all 0.5s linear;
   top: 60%;
 }
-
+.login-box.show {
+  transition: all 0.5s linear;
+  top: -60%;
+}
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
@@ -299,5 +304,11 @@ nav .conteynir .user i {
   50%,
   100% {
     bottom: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .login-box {
+    width: 300px;
+    padding: 40px;
   }
 }
