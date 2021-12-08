@@ -406,8 +406,8 @@ nav .conteynir .user i {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
-    border: 1px solid #59ab6e;
+    padding: 0px 9%;
+    /* border: 1px solid #59ab6e; */
   }
   .about .conteynir .about-box .about-box-btn {
     /* border: 1px solid red; */
