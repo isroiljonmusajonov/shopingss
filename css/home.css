@@ -153,3 +153,26 @@ body {
     margin: auto;
   }
 }
+@media (max-width: 500px) {
+  .owl-carousel .item .item-1 .item-box h1 {
+    font-size: 30px;
+  }
+  .owl-carousel .item .item-1 .item-box h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .owl-carousel .item .item-1 .item-box p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+    font-weight: 400;
+  }
+  .owl-carousel .item .item-1 .item-box h2 {
+    font-size: 30px;
+  }
+  .owl-carousel .item .item-1 .item-box h4 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
