@@ -515,14 +515,13 @@ nav .conteynir .user i {
   }
   .shopp .conteynir p {
     font-size: 17px;
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
   .shopp .conteynir .shopo-box .shopp-text {
     width: 300px;
-    margin-top: 20px;
+    margin: 20px auto;
     height: 450px;
     background-color: #fff;
-    /* border: 1px solid red; */
     border-radius: 5px;
   }
   .shopp .conteynir .shopo-box .shopp-text .shopp-img {
