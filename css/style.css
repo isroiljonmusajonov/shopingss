@@ -343,7 +343,7 @@ nav .conteynir .user i {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 9%;
+  padding: 0px 9% 0px 9%;
 }
 .about .conteynir .about-box .about-box-btn .about-box1 {
   margin-top: 20px;
@@ -443,7 +443,7 @@ nav .conteynir .user i {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 6%;
+  padding: 0px 6% 70px 6%;
   margin-top: 30px;
 }
 .shopp .conteynir .shopo-box .shopp-text {
