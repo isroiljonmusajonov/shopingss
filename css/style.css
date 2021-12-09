@@ -43,6 +43,48 @@ nav .conteynir {
   height: 85px;
   /* border: 1px solid red; */
 }
+
+.nav-box {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100vh;
+  background-color: #1d242d;
+  margin-left: -200%;
+  top: 120px;
+  position: absolute;
+  z-index: 1000;
+}
+.nav-box.active {
+  margin-left: 0px;
+  transition: all 0.5s linear;
+}
+.nav-box .tim {
+  text-align: end;
+}
+.nav-box.show {
+  margin-left: -200%;
+  transition: all 0.5 linear;
+}
+.nav-box .tim i {
+  color: red;
+  font-size: 30px;
+  margin: 20px 30px;
+  cursor: pointer;
+}
+.nav-box .menu-tim {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.nav-box .menu-tim ul li {
+  margin-top: 20px;
+}
+.nav-box .menu-tim ul li a {
+  color: #f0f0f0;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 nav .conteynir .logo h1 {
   font-size: 45px;
   font-weight: 500;
@@ -105,6 +147,7 @@ nav .conteynir .user i {
   nav .conteynir .menu {
     display: none;
   }
+
   nav .conteynir .user .bars {
     display: block;
   }

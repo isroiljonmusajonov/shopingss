@@ -183,4 +183,7 @@ footer .emails .addres button {
     /* margin-top: 20px; */
     /* border: 1px solid red; */
   }
+  footer .buttn {
+    width: 72%;
+  }
 }

@@ -1,6 +1,15 @@
 const userr = document.querySelector(".userr");
 const login = document.querySelector(".login-box");
 const submitt = document.querySelector(".submit");
+const box = document.querySelector(".nav-box");
+const bars = document.querySelector(".bars");
+const tim = document.querySelector(".tim");
+tim.addEventListener("click", () => {
+  box.classList.add("show");
+});
+bars.addEventListener("click", () => {
+  box.classList.toggle("active");
+});
 
 userr.addEventListener("click", () => {
   login.classList.add("active");
