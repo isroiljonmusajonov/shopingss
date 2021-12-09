@@ -44,37 +44,6 @@ nav .conteynir {
   /* border: 1px solid red; */
 }
 
-.nav-box {
-  /* border: 1px solid red; */
-  width: 100%;
-  height: 100vh;
-  background-color: #1d242d;
-  margin-left: -200%;
-  top: 120px;
-  position: absolute;
-  z-index: 1000;
-}
-.nav-box.active {
-  margin-left: 0px;
-  transition: all 0.5s linear;
-}
-.nav-box .tim {
-  text-align: end;
-}
-.nav-box.show {
-  margin-left: -200%;
-  transition: all 0.5 linear;
-}
-.nav-box .tim i {
-  color: red;
-  font-size: 30px;
-  margin: 20px 30px;
-  cursor: pointer;
-}
-.nav-box .menu-tim {
-  /* border: 1px solid red; */
-  text-align: center;
-}
 .nav-box .menu-tim ul li {
   margin-top: 20px;
 }
@@ -581,5 +550,39 @@ nav .conteynir .user i {
   .shopp .conteynir .shopo-box .shopp-text span {
     margin-left: 10px;
     font-size: 17px;
+  }
+}
+/* bars uchun mediya */
+@media (max-width: 420px) {
+  .nav-box {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: #1d242d;
+    margin-left: -200%;
+    top: 120px;
+    position: absolute;
+    z-index: 1000;
+  }
+  .nav-box.active {
+    margin-left: 0px;
+    transition: all 0.5s linear;
+  }
+  .nav-box .tim {
+    text-align: end;
+  }
+  .nav-box.show {
+    margin-left: -200%;
+    transition: all 0.5 linear;
+  }
+  .nav-box .tim i {
+    color: red;
+    font-size: 30px;
+    margin: 20px 30px;
+    cursor: pointer;
+  }
+  .nav-box .menu-tim {
+    /* border: 1px solid red; */
+    text-align: center;
   }
 }
